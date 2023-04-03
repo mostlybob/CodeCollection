@@ -2,6 +2,16 @@ namespace CodeCollection.Funcs;
 
 public class Demo : IDemo
 {
+    /*
+    The two methods in this class, SimpleInstanceDemo() and ExpressionsDemo(),
+    are intended to demonstrate how Func expressions can be used in
+    Dependency Injection to make more efficient use of resources by only
+    instantiating classes as they are needed. This contrasts to the typical
+    approach with DI where fully instantiated objects are injected, whether
+    or not they are actually used.
+    */
+
+
     public void Run()
     {
         SimpleInstanceDemo();
